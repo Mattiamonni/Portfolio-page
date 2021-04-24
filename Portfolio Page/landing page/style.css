@@ -1,0 +1,238 @@
+
+
+
+
+
+.body{
+  margin: 0;
+  color:#000;
+  overflow-x:  hidden;
+}
+
+h1{
+  font-size: 42px;
+  font-family: 'Hind', sans-serif;
+
+}
+
+h3 {
+  font-size: 18px ;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+
+}
+
+h2{
+  font-family: 'Hind', sans-serif;
+  font-size: 24px;
+}
+
+p{
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+}
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  max-width: 1515px;
+  align-items: center;
+  z-index: 1;
+}
+
+.menu{
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.menu li{
+  display: inline-block;
+  font-family: 'Hind', sans-serif;
+
+
+}
+
+.menu li a {
+  color: #706d6d;
+  padding: 25px;
+  display: block;
+  text-decoration: none;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+  z-index: 0;
+  }
+
+
+  .main{
+  height: 100vh;
+  width: 100%;
+  background: url('background.jpg') no-repeat center;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  color:#706d6d;
+  }
+
+
+.titolo{
+  padding: 60px;
+}
+
+.main_mail{
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color:#fff;
+}
+
+.input_mail{
+  width: 350px;
+  height: 35px;
+  border: 3px #a1b5b4;
+  border-radius: 5px;
+}
+
+.check_mail{
+  border-radius: 2px;
+}
+
+.label_check{
+  font-family: 'Hind', sans-serif;
+  font-size: 14px;
+}
+
+.btn_content{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  font-family: 'Hind', sans-serif;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background: #382ee8;
+}
+.btn:hover{
+  background: #564fdb;
+}
+
+/* ! Chi siamo */
+
+.chisiamo{
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+}
+.img_container{
+  height: 80vh;
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 70px;
+}
+
+.img{
+  height: 70vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.description{
+  height: auto;
+  width: 50%;
+  padding-top: 100px;
+}
+
+/* ! Servizi */
+
+.servizi{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.schede{
+  border: 2px solid #333331;
+  width: 20%;
+  height: 40vh;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  border-radius: 5px;
+}
+
+.titolos{
+  font-family: 'Hind', sans-serif;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  background: #6f9aa3;
+}
+
+.schede ol{
+  font-family: 'Hind', sans-serif;
+  list-style-type: none;
+  margin: 15px 0;
+}
+
+.btn_schede{
+  margin: 0;
+  padding: 0 20px;
+  height: 40px;
+  width: 120px;
+  background: #6f9aa3;
+  border-radius: 3px ;
+}
+
+
+/* ! footer */
+ .footer{
+   margin-top: 30px;
+   background: #383832;
+   padding: 20px;
+ }
+ .footer ol{
+   display: flex;
+  justify-content: flex-end;
+ }
+
+ .footer ol li{
+   font-family: 'Hind', sans-serif;
+   padding: 0 10px;
+   list-style-type: none;
+   color: #fff;
+ }
+
+.footer span{
+  font-family: 'Hind', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

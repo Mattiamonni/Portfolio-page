@@ -1,0 +1,85 @@
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  background-color: #000;
+
+}
+h1{
+  font-size: 2rem;
+
+}
+
+a{
+
+}
+
+/* ! header */
+.main{
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  padding: 20px;
+  color:#ebecef;
+}
+
+/* ! img_content */
+.img_content{
+  width: 100%;
+  height: 80vh;
+}
+
+.img{
+  height: auto;
+  max-width: 60%;
+  display:block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/* ! description */
+.headline{
+  margin: 15px 0;
+  text-align: center ;
+}
+ul{
+  max-width: 550px;
+  margin: 10px auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li{
+  margin: 16px 0;
+  font-size: 14px;
+}
+h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+p{
+  font-size: 14px ;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+
+@media (max-width: 460px;){
+  .main{margin:0;}
+
+  .img_content{
+    padding: 10px;
+    margin: 0;}
+
+  .img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+
+}
